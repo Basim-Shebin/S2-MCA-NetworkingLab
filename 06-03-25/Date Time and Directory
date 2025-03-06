@@ -1,0 +1,11 @@
+#!/bin/bash
+
+datetime=$(date)
+
+user=$(whoami)
+
+dir=$(pwd)
+
+echo "Current Date and Time: $datetime"
+echo "Current User: $user"
+echo "Current Working Directory: $dir"
